@@ -13,3 +13,18 @@ public class sesion2 {
         return valor * iva;
     }
 }
+
+//OTRA FORMA
+
+
+package EjercicioTema1;
+
+public class sesion2 {
+    public static void main(String[] args) {
+
+        double valor = 10.99d;
+        double iva = 1.21d;
+
+        System.out.println("El precio neto es: " + valor * iva);
+    }
+}
