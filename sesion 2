@@ -1,0 +1,15 @@
+package EjercicioTema1;
+
+
+public class sesion2 {
+
+    public static void main(String[] args) {
+        double valorNeto = precio(10.99, 1.21);
+        System.out.println("El valor neto es: " + valorNeto);
+
+    }
+    static double precio (double valor, double iva) {
+
+        return valor * iva;
+    }
+}
