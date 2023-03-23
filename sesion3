@@ -1,0 +1,17 @@
+
+public class sesion3 {
+
+    public static void main(String[] args) {
+
+        String[] nombres = {"Pedro", "Alba", "Juan", "Maria", "Carlos"};
+
+        for (String nombre : nombres) {
+
+            System.out.println(nombres[0] + " " + nombres[2] + " " + nombres[3] + " " + nombres[4]);
+            break;
+
+        }
+
+    }
+
+}
